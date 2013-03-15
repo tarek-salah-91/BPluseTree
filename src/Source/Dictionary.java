@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class Dictionary {
-
+// testing purpose
     private BPTree<String> dictionay = new BPTree<String>(200, 200, 3);
 
     public void loadDic(String path) throws IOException {
